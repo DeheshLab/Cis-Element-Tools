@@ -45,6 +45,7 @@ my $numproms = 0;				#variable to hold number of promoters looked at
 my $posproms = 0;				#variable to hold number of positives
 my $numcis = 0;					#variable to hold number of elements found
 my %check;						#hash to store motif hits 
+my $flank;						#holds flanking sequence 
 
 while (<IN>) {
 	chomp;
